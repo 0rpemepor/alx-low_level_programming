@@ -1,8 +1,14 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description: function to prine a single line with puts
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
-	/*this is a comment*/
-	{
+{
 	puts("Programming is like building a multilingual puzzle \n");
 	return (0);
-	}
+}
