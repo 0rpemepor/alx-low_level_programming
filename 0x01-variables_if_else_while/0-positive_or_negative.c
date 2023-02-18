@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
- /**
- * Generate a Random Number
+/**
+ * main - Entry point
  *
- * Description: A positive, Nerative or Zero
+ * This program generates a random number using the rand() function
+ * and then checks whether the number is positive, negative or zero.
  *
  * Return: Always 0 (Success)
-*/
+ */
 int main(void)
 {
 	int n;
