@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
-* main - main starts here
+* main - main function
 *
 *
-* Return: (0) success
+* Return: (1);
 */
 int main(void)
 {
@@ -17,11 +17,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	ld = n % 10;
 
-	if (n > 5)
-		printf("%d and is greater than 5\n", ld);
-	else if (n == 0)
-		printf("%d and is 0\n", ld);
-	else if (n < 6 && n != 0)
-		printf("%d and is less than 6 and not 0\n", ld);
+	if (ld > 5)
+		printf("The digit of %d is %d and is greater than 5\n", n, ld);
+	else if (ld == 0)
+		printf("The last digit of %d is %d and is zero\n", n, ld);
+	else if (ld < 6 && ld != 0)
+		printf("The last digit of %d is %d is less than 6 and not 0\n", n, ld);
 	return (0);
 }
