@@ -1,5 +1,5 @@
-#define main_h
-#include <stdio.h>
+#include "main.h"
+
 /**
 * main - to print function
 *
