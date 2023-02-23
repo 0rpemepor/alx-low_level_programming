@@ -1,14 +1,14 @@
-#include "main.h"
+#define main_h
+#include <stdio.h>
 /**
-* main - check the code
+* main - to print function
 *
-* Return: Always 0.
+*
+* Return: (0) Success
 */
-
 int main(void)
 {
-	void print_alphabet(void);
+	print_alphabet();
 
 	return (0);
 }
-
