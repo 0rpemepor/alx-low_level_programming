@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.o>
+#include <stdio.h>
 /**
 *print_alphabet_x10 - a function to print
 *
@@ -8,12 +8,12 @@
 */
 void print_alphabet_x10(void)
 {
-	char = letter;
-	int = j;
+	char letter;
+	int j;
 
 	for (j = 0; j < 10; j++)
 	{
-		for (letter = a; letter <= z; letter++)
+		for (letter = 'a'; letter <= 'z'; letter++)
 		{
 			putchar(letter);
 		}
