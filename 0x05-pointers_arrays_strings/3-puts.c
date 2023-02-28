@@ -1,18 +1,18 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
-  * _puts - Prints a string
-  * @str: The string to print
-  *
-  * Return: void
-  */
+*_puts - to display string
+*@str: the strinf
+*Return:(0) Success
+*/
 void _puts(char *str)
 {
-	for (; *str != '\0'; str++)
-	{
-		_putchar(*str);
-	}
+	int i = 0;
 
-	_putchar('\n');
+	while (str[i] != '\0')
+	{
+		putchar(str[i]);
+		i++;
+	}
+	putchar('\n');
 }
