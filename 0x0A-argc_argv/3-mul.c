@@ -23,7 +23,7 @@ int main (int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Usage: %s <integer1> <integer2>\n", argv[0]);
+		printf("Error\n");
 		return 1;
 	}
 
