@@ -1,7 +1,7 @@
 #ifndef FILE_DOG
 #define FILE_DOG
 
-/** 
+/**
  * struct dog - description of a dog owner
  *
  * @name: name of dog
