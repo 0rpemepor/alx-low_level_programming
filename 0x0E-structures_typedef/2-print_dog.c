@@ -2,13 +2,12 @@
 #include "dog.h"
 
 /**
-
-print_dog - prints the elements of struct dog
-
-@d: pointer to struct dog
-
-Return: void
-*/
+ * print_dog - prints the elements of struct dog
+ *
+ *@d: pointer to struct dog
+ *
+ *Return: void
+ */
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
