@@ -1,0 +1,22 @@
+#ifndef FILE_DOG
+#define FILE_DOG
+
+/** 
+ * struct dog - description of a dog owner
+ *
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: Description of owner
+ *
+ * Description: this is to know the details of a the dog and it's
+ * owner to avoid mix ups
+ */
+
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+};
+
+#endif
