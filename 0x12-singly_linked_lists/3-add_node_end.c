@@ -43,3 +43,18 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	return (new_node);
 }
+
+/**
+ * _strlen - returns the length of a string
+ * @s: a pointer to the string
+ * Return: the length of a string
+ */
+
+int _strlen(const char *s)
+{
+	int len = 0;
+	while (s[len])
+		len++;
+
+	return (len);
+}
